@@ -13,4 +13,4 @@ def send_break_notification(sound_enabled: bool = True):
             sound=sound_enabled,
         )
     except Exception as e:
-        print(f"[notifier] Не удалось отправить уведомление: {e}")
+        print(f"[notifier] Something went wrong, notification is not sent: {e}")
