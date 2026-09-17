@@ -2,11 +2,7 @@
 
 A tiny macOS menu bar app that reminds you to take a break.
 
-## Why Breather?
-
-I wanted a simple way to get an occasional reminder to stand up, stretch, drink some water, and look away from the screen. Breather stays quietly in the menu bar and sends a notification when it is time to move.
-
-The goal is not to build a complicated productivity system. It is just a small nudge to help avoid spending the whole day in the same chair.
+A simple nudge to stand up, stretch, drink water, and look away from the screen - just a reminder so you don't spend the whole day in one chair.
 
 ## Features
 
@@ -15,7 +11,12 @@ The goal is not to build a complicated productivity system. It is just a small n
 - Get a random message each time, for example my favorite `Don't become part of the chair` :D
 - Turn notification sounds on or off.
 
+## Installation
+- Download [the ZIP file for macOS](https://github.com/KhachatryanRafayel/breather/releases/download/v0.1.0/Breather-macOS-arm64.zip)
+- Unzip and drag Breather.app to Applications
+- Open the app
+- If macOS blocks it as "unidentified developer": Cancel → System Settings → Privacy & Security → Open Anyway
+- Allow notifications — the app now lives in your menu bar
 
 ## License
-
-This project is licensed under the terms of then [LICENSE](LICENSE) file.
+MIT, see [LICENSE](LICENSE).
